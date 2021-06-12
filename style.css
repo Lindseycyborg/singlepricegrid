@@ -1,0 +1,89 @@
+/* - Cyan: hsl(179, 62%, 43%)
+- Bright Yellow: hsl(71, 73%, 54%)
+
+### Neutral
+
+- Light Gray: hsl(204, 43%, 93%)
+- Grayish Blue: hsl(218, 22%, 67%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 16px
+
+- Family: [Karla](https://fonts.google.com/specimen/Karla)
+- Weights: 400, 700 */ 
+
+html, body {
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    font-Weight: 400;
+    background-color: seashell;
+}
+
+.container {
+    max-width: 900px;
+}
+.box {
+    padding: 100px 40px;
+
+}
+.top-card {
+    background: white;
+    padding: 50px 20px;
+}
+
+.top-card p {
+    color: hsl(218, 22%, 67%)
+}
+#firstH1 {
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+}
+
+#firstH3 {
+    color: hsl(71, 73%, 54%);
+}
+
+.middle-card {
+    background: #2bb3b1;
+}
+
+.middle-card p, h3, h1 {
+    color: hsl(204, 43%, 93%)
+}
+.cost {
+    display: flex;
+}
+
+.last-card {
+    background-color: #4abebd;
+}
+
+.last-card p {
+    margin-bottom: 0;
+}
+
+.last-card p, h3{
+    color: hsl(204, 43%, 93%)
+}
+
+.last-card h3 {
+    padding-bottom: 20px;
+}
+.box1 {
+    box-shadow: 5px 10px 18px  #888888;
+    margin-top: 50px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.button1 {
+    width: 250px;
+    background-color: hsl(71, 73%, 54%);
+}
+
+.button1:hover{
+    background-color: rgba(117, 201, 20, 0.892);
+}
